@@ -25,14 +25,14 @@ services:
         published: "8300"
         protocol: tcp
     environment:
-      - OWNCLOUD_TRUSTED_DOMAINS=localhost  # 192.168.1.xx | tudominio.com
+      - OWNCLOUD_TRUSTED_DOMAINS=10.0.0.7  # 192.168.1.xx | tudominio.com
       - OWNCLOUD_DB_TYPE=mysql
       - OWNCLOUD_DB_NAME=owncloud
       - OWNCLOUD_DB_USERNAME=owncloud
       - OWNCLOUD_DB_PASSWORD=owncloud
       - OWNCLOUD_DB_HOST=owncloud-db
-      - OWNCLOUD_ADMIN_USERNAME=user
-      - OWNCLOUD_ADMIN_PASSWORD=p4ssw0rd
+      - OWNCLOUD_ADMIN_USERNAME=Tusshar
+      - OWNCLOUD_ADMIN_PASSWORD=Tusshar@2024
       - OWNCLOUD_MYSQL_UTF8MB4=true
       - OWNCLOUD_REDIS_ENABLED=true
       - OWNCLOUD_REDIS_HOST=redis-own
