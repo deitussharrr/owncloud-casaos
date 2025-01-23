@@ -21,7 +21,7 @@ services:
     container_name: owncloud-server 
     restart: unless-stopped
     ports:
-      - target: 8080
+      - target: 6969
         published: "8300"
         protocol: tcp
     environment:
